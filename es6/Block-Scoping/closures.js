@@ -14,7 +14,7 @@ console.dir(counter());
 var counterWithClosure = (function(i) {
   var count = i;
   return function() {
-    return (count += 1);
+    return count += 1;
   };
 })(10);
 
